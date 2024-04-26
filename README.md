@@ -10,6 +10,8 @@
 ```shell
 docker compose up -d
 
+cp .env.example .env
+
 go run main.go
 ```
 
